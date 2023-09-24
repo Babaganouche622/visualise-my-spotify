@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./challenge3/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Visualize your Spotify</h1>
+    <!-- add a filter option on a list of genres -->
+    <select id="genres"></select>
+    <button id="Danceability" style="background-color: #c4f8a2; color: #ff69b4;">Danceability</button>
+    <button id="Loudness" style="background-color: #ff69b4; color: #c4f8a2;">Loudness</button>
+  </header>
+
+
+  <div id="spotifyPlayer">
+    <div class="tenor-gif-embed" data-postid="25773540" data-share-method="host" data-aspect-ratio="0.8375"
+      data-width="25%"><a href="https://tenor.com/view/magical-girl-madoka-magica-dance-gif-25773540">Magical Girl
+        Madoka Magica GIF</a>from <a href="https://tenor.com/search/magical+girl-gifs">Magical Girl GIFs</a></div>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <iframe id="spotifyAudio" style="border-radius:12px" src="" width="100%" height="352" frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+  </div>
+  <div id="visualize">
+    <table id="my_dataviz2"></table>
+    <div id="my_dataviz"></div>
+  </div>
+
+  <script src="https://d3js.org/d3.v6.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./challenge3/script.js"></script>
+</body>
+
+</html>
